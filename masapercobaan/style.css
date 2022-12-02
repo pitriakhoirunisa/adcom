@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    width: 100%;
+}
+.container {
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 2px 2px rgb(141, 136, 136);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color: rgb(245, 209, 221);
+}
+.garis {
+    height: 3px;
+    width: 50%;
+    background-color: rgb(238, 181, 185);
+    margin-bottom: 10px;
+}
